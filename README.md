@@ -39,9 +39,12 @@ The primary objective of this project is to develop a deep learning model that c
 ### Option 1: Running Locally in a Jupyter Notebook
 
 1. Install Jupyter Notebook (if not already installed):
-    pip install jupyterlab
 
-2. Start the Jupyter Notebook server:
+   ```bash
+   pip install jupyterlab
+   ```
+
+3. Start the Jupyter Notebook server:
 
 - **On Windows**:
 
@@ -60,7 +63,8 @@ The primary objective of this project is to develop a deep learning model that c
 3. Navigate to your project directory and open the notebook where you want to run the code.
 
 4. Ensure that your virtual environment is being used in the Jupyter notebook by selecting the appropriate kernel:
-    - Click on the Kernel menu.
+
+- Click on the Kernel menu.
     - Choose Change kernel.
     - Select your environment (final_project_venv).
 
@@ -69,10 +73,16 @@ The primary objective of this project is to develop a deep learning model that c
 1. Upload your project files to Google Drive or directly to Google Colab.
 
 2. Install the required dependencies in the Colab environment by adding the following code at the beginning of your notebook:
-    pip install -r Requirements.txt
 
-3. Mount your Google Drive to access project files (if necessary):
+   ```bash
+   pip install -r Requirements.txt
+   ```
+
+4. Mount your Google Drive to access project files (if necessary):
+
+    ```bash
     from google.colab import drive
     drive.mount('/content/drive')
-
-4. Run your code cells as you normally would in a Jupyter notebook.
+    ```
+    
+6. Run your code cells as you normally would in a Jupyter notebook.
