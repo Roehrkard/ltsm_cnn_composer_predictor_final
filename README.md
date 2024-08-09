@@ -18,15 +18,15 @@ The primary objective of this project is to develop a deep learning model that c
 
     - **On Windows**:
 
-        ```bash
-        final_project_venv\Scripts\activate
-        ```
+    ```bash
+    final_project_venv\Scripts\activate
+    ```
 
     - **On macOS/Linux**:
 
-        ```bash
-        source final_project_venv/bin/activate
-        ```
+    ```bash
+    source final_project_venv/bin/activate
+    ```
 
 3. Install dependencies using `requirements.txt`:
 
@@ -45,17 +45,18 @@ The primary objective of this project is to develop a deep learning model that c
 
 - **On Windows**:
 
-        ```bash
-        final_project_venv\Scripts\activate
-        jupyter notebook
-        ```
+  ```bash
+  final_project_venv\Scripts\activate
+  jupyter notebook
+  ```
 
-    - **On macOS/Linux**:
+- **On macOS/Linux**:
 
-        ```bash
-        source final_project_venv/bin/activate
-        jupyter notebook
-        ```
+  ```bash
+  source final_project_venv/bin/activate
+  jupyter notebook
+  ```
+
 3. Navigate to your project directory and open the notebook where you want to run the code.
 
 4. Ensure that your virtual environment is being used in the Jupyter notebook by selecting the appropriate kernel:
